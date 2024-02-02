@@ -1,3 +1,4 @@
+/* Set text color to improve contrast */
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
   background-color: grey;
@@ -7,7 +8,6 @@ body {
 }
 
 /* Set text color to improve contrast */
-
 h1,
 h2,
 h3,
@@ -17,8 +17,6 @@ h6 {
   font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
   color: #333; 
 }
-
-/* Set text color to improve contrast */
 
 .container {
   max-width: 1080px;
