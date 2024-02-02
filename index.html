@@ -13,6 +13,8 @@
 </head>
 
 <body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <a href="#site-footer" class="skip-link">Skip to footer</a>
   <div class="container">
     <header class="site-header">
       <h1>Jam Box Studios</h1>
@@ -26,11 +28,11 @@
       </nav>
       <img src="https://placekitten.com/1200/900" class="banner">
     </header>
-    <main class="main-content">
+    <main class="main-content" id="main-content" role="main">
       <h1>Welcome to Jam Box</h1>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
-      <section class="owner">
+      <section class="owner" role="region" aria-label="Owner Information">
         <h1>Meet the owner</h1>
         <ul>
           <li>Name: John Doe</li>
@@ -46,7 +48,7 @@
           B3T 0L0
         </p>
       </section>
-      <section class="contact-section">
+      <section class="contact-section" role="region" aria-label="Contact Information">
         <h1>Contact Us</h1>
         <form action="thanks.html">
           <label>Full Name</label>
@@ -59,7 +61,7 @@
         </form>
       </section>
     </main>
-    <footer class="site-footer">
+    <footer class="site-footer" id="site-footer">
       &copy; 2021 Jam Box Studios
     </footer>
   </div>
