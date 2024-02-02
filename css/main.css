@@ -1,4 +1,4 @@
-/* Set text color to improve contrast */
+
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
   background-color: #333;
@@ -7,7 +7,7 @@ body {
   color: #c1baba; 
 }
 
-/* Set text color to improve contrast */
+
 h1,
 h2,
 h3,
@@ -74,7 +74,7 @@ form button {
   padding: 2rem 0;
 }
 
-/* Make skip-link look like a button */
+
 .skip-link {
   display: inline-block;
   padding: 0.5rem 1rem;
@@ -96,4 +96,9 @@ form button {
   padding: 1rem;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+.skip-link {
+  font-family: 'Roboto', Helvetica, sans-serif;
+
 }
